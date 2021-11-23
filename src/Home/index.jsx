@@ -1,5 +1,7 @@
 import React from "react";
 import ClassComponent from "../Components/ClassComponent";
+import Welcome from "../Components/Welcome";
+
 
 export default class Komponen extends React.Component {
 
@@ -7,6 +9,7 @@ export default class Komponen extends React.Component {
         return (
             <div>
                 <ClassComponent />
+                <Welcome />
             </div>
         )
     }
